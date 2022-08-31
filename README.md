@@ -19,3 +19,7 @@ Fungsi dari onLongPress mirip dengan onTap maupun onDoubleTap. Tetapi, perbedaan
 ## Praktikum 2: Menerapkan Input Widget dan Forms
 ![Screenshot flutter_fundamental_3](images/04.png)
 Pada praktikum ini, kita diajarkan untuk membuat form input dan juga memberikan validasi pada form nya. Disini, untuk form input yang pertama diberi validasi apabila form kosong atau tidak ada isi maka akan muncul pesan bahwa form tidak boleh kosong.
+
+## Praktikum 3: Menerapkan Custom Input dan FormField Widget
+![Screenshot flutter_fundamental_3](images/05.png)
+Pada praktikum ini, kita diajarkan untuk membuat custom input dan mengatur keyboard nya. Disini kita uji coba apabila memasukkan text, maka text yang kita ketikkan tidak akan muncul ke dalam input form karena form di filter hanya menerima data berupa angka. Uji coba yang kedua, memasukkan angka lebih dari 6 digit. Dibagian ini, kita juga tidak bisa memasukkan angka lebih dari 6 digit karena dilakukan filter hanya menerima data maksimal 6 digit saja.
