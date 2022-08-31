@@ -1,16 +1,17 @@
 # flutter_fundamental_3
 
-A new Flutter project.
+Praktikum hari 17 Flutter
 
-## Getting Started
+## Praktikum 1: Menerapkan Gesture Detector
 
-This project is a starting point for a Flutter application.
+### onTap
+![Screenshot flutter_fundamental_3](images/01.png)
+Pada praktikum bagian ini, onTap berfungsi apabila kita menekan gambar. onTap disini sama dengan click. Fungsi onTap sendiri apabila setiap kita meng-klik gambar 1x maka angka akan bertambah 1. 
 
-A few resources to get you started if this is your first Flutter project:
+### onDoubleTap
+![Screenshot flutter_fundamental_3](images/02.png)
+Fungsi dari onDoubleTap hampir sama dengan onTap. Akan tetapi perbedaannya terdapat saat kita klik gambar. onDoubleTap memiliki arti apabila kita klik gambar 2x maka angka akan bertambah 1. 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### onLongPress
+![Screenshot flutter_fundamental_3](images/03.png)
+Fungsi dari onLongPress mirip dengan onTap maupun onDoubleTap. Tetapi, perbedaannya apabila onLongPress berfungsi saat kita menekan gambar cukup lama. Setelah itu fungsi increment akan berjalan. Dalam onLongPress ini kita menekan gambar kurang lebih 2-3 detik.
